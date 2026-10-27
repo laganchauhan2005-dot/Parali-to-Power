@@ -1,0 +1,53 @@
+
+# Python artefacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Local SQLite databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary Edge profiles used for screenshot helpers
+C:/temp/edge_test_profile_robust/
+C:/temp/edge_tall_profile/
+temp/
+edge_test_profile_robust/
+edge_tall_profile/
+
+# Generated screenshots (local only)
+*.png
+*.jpg
+*.jpeg
+
+# Streamlit cache
+.streampy/
+.streamlit/__pycache__/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Pytest cache
+.pytest_cache/
+
+# OS-specific artefacts
+Thumbs.db
+Desktop.ini
+
+# Local screenshot and UI verification helpers
+capture_all_pages.py
+capture_scrolled.py
+capture_single_page.py
+capture_tall.py
+scratch_capture.py
+verify_chips.py
